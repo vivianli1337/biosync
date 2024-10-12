@@ -1,7 +1,8 @@
+import Rform from "./requestform";
 export default function request() {
     return (
         <div>
-            <h2>Request</h2>
+            <Rform/>
         </div>
     );
 }

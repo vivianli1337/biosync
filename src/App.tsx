@@ -10,6 +10,8 @@ import Summary from './content/Summary';
 import MedicalProcedure from './content/Summary/procedure';
 import StockLevel from './content/Summary/stocklevel';
 import UrgentMessage from './content/Summary/urgent';
+import NavigationBar from './content/navbar';
+import Rform from './content/Requests/requestform';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -29,6 +31,8 @@ function App() {
           <Route path="./content/Summary/stocklevel" element={<StockLevel />} />
           <Route path="./content/Summary/procedure" element={<MedicalProcedure />} />
           <Route path="./content/Summary/urgent" element={<UrgentMessage />} />
+          <Route path="./content/navbar" element={<NavigationBar/>} />
+          <Route path="./content/Requests/requestform" element={<Rform/>} />
         </Routes>
       </div>
     </Router>

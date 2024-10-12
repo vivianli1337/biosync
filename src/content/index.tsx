@@ -1,15 +1,15 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import TOC from "./TOC";
 import DeliveryStatus from "./Delivery"; 
 import PatientInfo from "./PatientInfo"; 
 import Request from "./Requests"; 
 import Inventory from "./Inventories"; 
 import Summary from "./Summary";
+import NavigationBar from "./navbar";
 
 export default function Content() {
   return (
     <div>
-      <TOC />
+      <NavigationBar />
       <Routes>
         <Route path="/" element={<Navigate to="/summary" />} />
         <Route path="/summary" element={<Summary />} />
