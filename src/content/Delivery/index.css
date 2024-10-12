@@ -1,0 +1,6 @@
+.map-placeholder {
+    height: 300px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    position: relative;
+  }
