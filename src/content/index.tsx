@@ -9,7 +9,7 @@ import Summary from "./Summary";
 export default function Content() {
   return (
     <div>
-      {/* <TOC /> */}
+      <TOC />
       <Routes>
       <TOC />
         <Route path="/" element={<Navigate to="/summary" />} />
