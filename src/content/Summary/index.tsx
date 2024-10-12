@@ -3,6 +3,7 @@ import MedicalProcedure from './procedure';
 import StockLevel from './stocklevel';
 import './index.css'; 
 
+
 export default function Dashboard() {
     return (
         <div className="container-fluid">

@@ -7,6 +7,9 @@ import Patientinfo from './content/PatientInfo';
 import Inventory from './content/Inventories';
 import Request from './content/Requests';
 import Summary from './content/Summary';
+import MedicalProcedure from './content/Summary/procedure';
+import StockLevel from './content/Summary/stocklevel';
+import UrgentMessage from './content/Summary/urgent';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -23,7 +26,9 @@ function App() {
           <Route path="/content/PatientInfo" element={<Patientinfo />} />
           <Route path="/content/Inventories" element={<Inventory />} />
           <Route path="/content/Requests" element={<Request />} />
-
+          <Route path="./content/Summary/stocklevel" element={<StockLevel />} />
+          <Route path="./content/Summary/procedure" element={<MedicalProcedure />} />
+          <Route path="./content/Summary/urgent" element={<UrgentMessage />} />
         </Routes>
       </div>
     </Router>
