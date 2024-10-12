@@ -11,7 +11,6 @@ export default function Content() {
     <div>
       <TOC />
       <Routes>
-      <TOC />
         <Route path="/" element={<Navigate to="/summary" />} />
         <Route path="/summary" element={<Summary />} />
         <Route path="/delivery" element={<DeliveryStatus />} />
