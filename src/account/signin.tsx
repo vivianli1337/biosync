@@ -23,9 +23,11 @@ export default function Signin() {
                             type="password"
                         />
                     </div>
+                    <Link to="/content/summary">
                     <button className="btn btn-secondary w-100 mb-3">
                         LOG IN
                     </button>
+                    </Link>
                 </form>
                 <div className="signup-link text-end">
                     <Link id="signup-link" to="/account/signup">
