@@ -2,28 +2,28 @@
     margin-top: 20px;
 }
 
-/* Alert message styling */
+
 .alert {
-    background-color: #f8d7da; /* Light red for the alert background */
-    color: #721c24; /* Dark red for the alert text */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f8d7da; 
+    color: #721c24;
+    border-radius: 8px;
 }
 
 .alert button {
-    border-radius: 5px; /* Rounded corners for the assist button */
+    border-radius: 5px; 
 }
 
 .btn-assist {
-    padding: 5px 10px; /* Smaller padding */
-    font-size: 0.875rem; /* Smaller font size */
+    padding: 5px 10px; 
+    font-size: 0.875rem; 
     width:120px;
 }
 
-/* Card styles */
+
 .card {
-    border-radius: 10px; /* Smooth corners for cards */
-    background-color: #f8f9fa; /* Light background for cards */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 10px; 
+    background-color: #f8f9fa; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px;
 }
 
@@ -34,7 +34,6 @@
     text-align: center;
 }
 
-/* Table styling */
 .table {
     margin-top: 10px;
     text-align: center;
@@ -44,7 +43,6 @@
     vertical-align: middle;
 }
 
-/* Button styling for stock levels */
 button {
     font-size: 1rem;
     padding: 10px 20px;
@@ -53,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #17a2b8; /* Light blue hover effect for buttons */
+    background-color: #17a2b8; 
     color: white;
 }
 
@@ -67,7 +65,7 @@ button:hover {
     color: white;
 }
 
-/* Specific styles for stock level buttons */
+
 .stock-btn {
     min-width: 120px;
     margin: 5px;
@@ -75,7 +73,6 @@ button:hover {
     font-size: 1rem;
 }
 
-/* Organ Donation Section */
 .organ-section {
     margin-top: 20px;
     background-color: #e9ecef;

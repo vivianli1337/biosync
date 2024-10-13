@@ -32,7 +32,6 @@ export default function MedicalProcedure() {
                     </tr>
                     <tr></tr>
                 <tbody>
-                    {/* Add table rows with medical procedures here */}
                 </tbody>
             </table>
         </div>

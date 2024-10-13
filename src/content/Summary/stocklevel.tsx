@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function StockLevel() {
     return (
         <div className="row justify-content-center">
-            {/* Low in Inventory Section */}
+
             <div className="col-lg-6 mb-4">
                 <div className="card p-4 shadow">
                     <h5 className="card-title text-center">Low in Inventory</h5>
@@ -20,7 +20,7 @@ export default function StockLevel() {
                 </div>
             </div>
 
-            {/* Current Stock Section */}
+
             <div className="col-lg-6 mb-4">
                 <div className="card p-4 shadow">
                     <h5 className="card-title text-center">Current Stock</h5>

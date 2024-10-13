@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; // Make sure to import Link
+import { Link } from 'react-router-dom'; 
 import './index.css';
 
 export default function UrgentMessage() {
