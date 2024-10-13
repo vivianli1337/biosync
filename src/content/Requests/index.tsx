@@ -1,4 +1,3 @@
-import IncomingRequests from './incomingrequest';
 import Request from './requestform';
 import './index.css'; 
 
