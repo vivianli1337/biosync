@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import QRScanner from './qrcode';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom'; // Ensure Router is only imported here
 
@@ -13,6 +14,7 @@ root.render(
   <React.StrictMode>
     <Router> {/* Only wrap Router here */}
       <App />
+      <QRScanner/ >
     </Router>
   </React.StrictMode>
 );

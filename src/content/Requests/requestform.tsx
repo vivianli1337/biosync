@@ -122,8 +122,8 @@ export default function Request() {
 
                 {/* Link to navigate to "Incoming Requests" */}
                 <div className="w-100 text-end">
-                    <Link to="/content/requests/incomingrequest" className="btn btn-secondary">
-                        See Incoming Requests
+                    <Link to="/redcross" className="btn btn-secondary">
+                        Send to Blood Bank / Tissue Bank / Red Cross
                     </Link>
                 </div>
             </form>
