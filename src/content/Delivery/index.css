@@ -1,32 +1,20 @@
-/* .map-placeholder {
-  border: 1px solid #ddd;
-  background-color: #f8f9fa;
-  position: relative;
-  height: 400px;
-  width: 100%;
-
-} */
-
-/* index.css */
-
-/* Container styles */
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f9fa; /* Light grey background */
+  background-color: #f8f9fa; 
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #343a40; /* Dark grey */
+  color: #343a40; 
 }
 
-/* Input group */
+
 .input-group {
   display: flex;
   justify-content: center;
@@ -37,7 +25,7 @@ h2 {
   border-radius: 4px;
 }
 
-/* Map container */
+
 .map-placeholder {
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -58,7 +46,7 @@ h2 {
   content: "Map will appear here";
 }
 
-/* Table styles */
+
 .table {
   margin-top: 20px;
   width: 100%;
@@ -69,7 +57,7 @@ h2 {
 }
 
 .table th {
-  background-color: #007bff; /* Bootstrap primary blue */
+  background-color: #007bff; 
   color: white;
 }
 
@@ -78,20 +66,20 @@ h2 {
   font-size: 14px;
 }
 
-/* Pickup location clickable style */
+
 .h-pickup-loc {
   cursor: pointer;
   color: #007bff;
   text-decoration: underline;
 }
 
-/* Hover effect for pickup location */
+
 .h-pickup-loc:hover {
   color: #0056b3;
   text-decoration: none;
 }
 
-/* Button styles */
+
 .btn {
   display: block;
   width: 150px;
@@ -107,7 +95,7 @@ h2 {
   background-color: #c82333;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
   .container {
       padding: 10px;

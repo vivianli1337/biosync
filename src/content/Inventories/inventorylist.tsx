@@ -6,7 +6,6 @@ export default function Inventorylist() {
         <div className="container mt-5">
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h1>Inventory</h1>
-                {/* Button to send to hospitals */}
                 <Link to="/content/Inventories/sendinventory">
                     <button className="btn btn-success">Send To Hospitals</button>
                 </Link>

@@ -6,7 +6,6 @@ export default function PatientList() {
         <div className="container mt-5">
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h1>All Patients</h1>
-                {/* Button to navigate to Transplant Candidate */}
                 <Link to="/content/patientinfo/transplantpatient">
                     <button className="btn btn-primary">View Transplant Candidates</button>
                 </Link>

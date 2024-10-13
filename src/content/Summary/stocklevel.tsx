@@ -4,17 +4,19 @@ import { Link } from 'react-router-dom';
 
 export default function StockLevel() {
     return (
-        <div className="row">
-            {/* Low in Section */}
+        <div className="row justify-content-center">
+            {/* Low in Inventory Section */}
             <div className="col-lg-6 mb-4">
                 <div className="card p-4 shadow">
                     <h5 className="card-title text-center">Low in Inventory</h5>
-                    <Link to="/content/Inventories">
-                        <button className="btn btn-outline-info m-2">Blood Type A: 2</button>
-                        <button className="btn btn-outline-info m-2">Stem Cell: 10</button>
-                        <button className="btn btn-outline-info m-2">Cornea Tissue Sample: 5</button>
-                        <button className="btn btn-outline-info m-2">HIV Vaccines: 3</button>
-                    </Link>
+                    <div className="d-flex flex-column align-items-center">
+                        <Link to="/content/Inventories" className="align-items-center">
+                            <button className="btn btn-outline-info m-2">Blood Type A: 2</button>
+                            <button className="btn btn-outline-info m-2">Stem Cell: 10</button>
+                            <button className="btn btn-outline-info m-2">Cornea Tissue Sample: 5</button>
+                            <button className="btn btn-outline-info m-2">HIV Vaccines: 3</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
 
@@ -33,6 +35,7 @@ export default function StockLevel() {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     );
 }
+

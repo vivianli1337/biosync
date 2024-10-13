@@ -60,12 +60,12 @@ const DeliveryStatus: React.FC = () => {
         const initializeMap = () => {
             if (mapRef.current && window.google) {
                 const initialMap = new window.google.maps.Map(mapRef.current, {
-                    center: { lat: 42.3601, lng: -71.0589 }, // Example: Boston, MA
+                    center: { lat: 42.3601, lng: -71.0589 }, 
                     zoom: 12,
                 });
                 setMap(initialMap);
 
-                // Initialize autocomplete for the address input
+             
                 if (inputRef.current) {
                     const auto = new window.google.maps.places.Autocomplete(inputRef.current);
                     auto.addListener('place_changed', () => {
@@ -73,14 +73,14 @@ const DeliveryStatus: React.FC = () => {
                         if (place.geometry && place.geometry.location) {
                             initialMap.setCenter(place.geometry.location);
 
-                            // Place a new marker at the selected location
+                          
                             const newMarker = new google.maps.Marker({
                                 position: place.geometry.location,
                                 map: initialMap,
                                 title: place.formatted_address,
                             });
 
-                            // Add the new marker to the markers array
+                        
                             setMarkers((prevMarkers) => [...prevMarkers, newMarker]);
                         } else {
                             alert("No details available for this location.");
@@ -88,7 +88,7 @@ const DeliveryStatus: React.FC = () => {
                     });
                     setAutocomplete(auto);
 
-                    // Initialize PlacesService for programmatic place lookups
+             
                     const service = new window.google.maps.places.PlacesService(initialMap);
                     setPlacesService(service);
                 }
@@ -107,7 +107,7 @@ const DeliveryStatus: React.FC = () => {
         if (inputRef.current && autocomplete && placesService) {
             inputRef.current.value = location;
 
-            // Use PlacesService to find the place details for the location text
+          
             placesService.findPlaceFromQuery(
                 { query: location, fields: ['name', 'geometry'] },
                 (results, status) => {
@@ -118,19 +118,19 @@ const DeliveryStatus: React.FC = () => {
                         results[0].geometry &&
                         results[0].geometry.location
                     ) {
-                        // Set the found place as the location for autocomplete
+                     
                         const place = results[0];
-                        autocomplete.set('place', place); // Set this as the current place
+                        autocomplete.set('place', place); 
 
                         // Update map with new location
-                        map?.setCenter(place.geometry!.location!); // Non-null assertion here
+                        map?.setCenter(place.geometry!.location!); 
                         const newMarker = new google.maps.Marker({
-                            position: place.geometry!.location!, // Non-null assertion here
+                            position: place.geometry!.location!, 
                             map: map,
                             title: location,
                         });
 
-                        // Add the marker to the markers array
+                        
                         setMarkers((prevMarkers) => [...prevMarkers, newMarker]);
                     } else {
                         alert("Location not found.");
@@ -157,7 +157,6 @@ const DeliveryStatus: React.FC = () => {
                 Clear Markers
             </button>
 
-            {/* Map Placeholder */}
             <div className="row">
                 <div className="col-12">
                     <div
@@ -168,7 +167,6 @@ const DeliveryStatus: React.FC = () => {
                 </div>
             </div>
 
-            {/* Delivery Table */}
             <div className="row mt-4">
                 <div className="col-12">
                     <table className="table table-striped table-bordered text-center">

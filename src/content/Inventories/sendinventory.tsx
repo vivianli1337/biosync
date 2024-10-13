@@ -5,7 +5,7 @@ export default function SendToHospitalForm() {
     const [hospital, setHospital] = useState('');
     const [material, setMaterial] = useState('');
     const [quantity, setQuantity] = useState('');
-    const maxStock = 100;  // Example max stock value
+    const maxStock = 200;  
     const stockLeft = maxStock - Number(quantity);
 
     return (

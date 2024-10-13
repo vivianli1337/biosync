@@ -1,16 +1,14 @@
-/* General container styling */
+
 .container {
     padding: 20px;
 }
 
-/* Common heading styling for both components */
 h2 {
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Table Styling (For Incoming Requests) */
 .table {
     width: 100%;
     margin-bottom: 20px;
@@ -31,7 +29,6 @@ h2 {
     background-color: #f1f1f1;
 }
 
-/* Button Styles */
 .btn {
     padding: 10px 15px;
     border: none;
@@ -54,6 +51,16 @@ h2 {
     color: white;
 }
 
+.btn-info {
+    background-color: #08a68c;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
 .btn-success:hover {
     background-color: #218838;
 }
@@ -67,7 +74,6 @@ h2 {
     background-color: #5a6268;
 }
 
-/* Form Styling (For Request Form) */
 .form-label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -89,7 +95,7 @@ h2 {
     border: 1px solid #ccc;
 }
 
-/* Responsive layout adjustments */
+
 @media (max-width: 768px) {
     .container {
         padding: 10px;

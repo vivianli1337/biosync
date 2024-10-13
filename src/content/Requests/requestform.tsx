@@ -5,11 +5,9 @@ import './index.css';
 export default function Request() {
     return (
         <div className="container mt-4">
-            {/* Heading with "See Incoming Request" Link */}
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h2>Request</h2>
-                {/* Link to navigate to "Incoming Requests" */}
-                <Link to="/content/requests/incomingrequest" className="btn btn-sm btn-info">
+                <Link to="/content/requests/incomingrequest" className="d-flex justify-content-end btn-info">
                     See Incoming Requests
                 </Link>
             </div>
@@ -57,7 +55,7 @@ export default function Request() {
                     </select>
                 </div>
 
-                {/* Need By Date Input */}
+
                 <div className="mb-3 w-100">
                     <input
                         type="date"
@@ -66,7 +64,6 @@ export default function Request() {
                     />
                 </div>
 
-                {/* Send to Section */}
                 <h4 className="mb-3 w-100">Send to:</h4>
 
                 <div className="mb-3 w-100">
@@ -115,15 +112,15 @@ export default function Request() {
                     </div>
                 </div>
 
-                {/* Submit Button */}
                 <div className="w-100">
                     <button type="submit" className="btn btn-primary w-100 mb-3">Send</button>
                 </div>
 
-                {/* Link to navigate to "Incoming Requests" */}
                 <div className="w-100 text-end">
-                    <Link to="/redcross" className="btn btn-secondary">
-                        Send to Blood Bank / Tissue Bank / Red Cross
+                    <Link to="/redcross">
+                        <button type="submit" className="btn-secondary w-100 mb-3">
+                            Send to Blood Bank / Tissue Bank / Red Cross
+                        </button>
                     </Link>
                 </div>
             </form>
