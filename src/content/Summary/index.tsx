@@ -32,7 +32,38 @@ export default function Dashboard() {
                 <div className="col-12">
                     <div className="card p-4 shadow">
                         <h5 className="card-title text-center">Organ Donation / Waitlist</h5>
-                        {/* Add content here */}
+                        <table className="table">
+                    <thead>
+                        <tr>
+                            <th>Patient</th>
+                            <th>Hospitalize Date</th>
+                            <th>Organ</th>
+                            <th>Rank (National)</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td>Goerge Lewis</td>
+                            <td>1/12/2018</td>
+                            <td>Heart</td>
+                            <td>113</td>
+                            <td>Patient</td>
+                        </tr>
+                        <tr>
+                            <td>Abraham Lincoln</td>
+                            <td>10/13/2024</td>
+                            <td>Heart</td>
+                            <td>n/a</td>
+                            <td>Donor & deceased </td>
+                        </tr>
+                        <tr>
+                            <td>Sean Terrance</td>
+                            <td>1/12/2020</td>
+                            <td>kidney</td>
+                            <td>2891</td>
+                            <td>patient </td>
+                        </tr>
+                    </table>             
                     </div>
                 </div>
             </div>

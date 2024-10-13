@@ -33,27 +33,43 @@ export default function Inventorylist() {
                         <td>20</td>
                     </tr>
                     <tr>
-                        <td>Type O Blood</td>
-                        <td>123456789</td>
-                        <td>125</td>
-                        <td>16</td>
+                        <td>Heart Tissue</td>
+                        <td>12357789</td>
+                        <td>32</td>
+                        <td>20</td>
                         <td>Oct 15, 2024</td>
                         <td>20</td>
                     </tr>
                     <tr>
-                        <td>Type O Blood</td>
-                        <td>123456789</td>
-                        <td>125</td>
-                        <td>16</td>
+                        <td>Blood Type A</td>
+                        <td>154564549</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>Dec. 15, 2025</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Stem Cell</td>
+                        <td>18678939</td>
+                        <td>10</td>
+                        <td>3</td>
                         <td>Oct 15, 2024</td>
                         <td>20</td>
                     </tr>
                     <tr>
-                        <td>Type O Blood</td>
-                        <td>123456789</td>
-                        <td>125</td>
-                        <td>16</td>
+                        <td>Cornea Tissue Sample</td>
+                        <td>98347395</td>
+                        <td>5</td>
+                        <td>2</td>
                         <td>Oct 15, 2024</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>HIV Vaccine</td>
+                        <td>9878239</td>
+                        <td>3</td>
+                        <td>0</td>
+                        <td>Sep. 11, 2026</td>
                         <td>20</td>
                     </tr>
                 </tbody>

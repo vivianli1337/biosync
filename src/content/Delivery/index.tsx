@@ -21,10 +21,10 @@ const DeliveryStatus: React.FC = () => {
     const deliveries: DeliveryRow[] = [
         {
             name: 'Tony Stark',
-            id: '001234561S',
+            id: '6778899033',
             location: '7 Fruit St Boston, MA 02120',
-            material: 'Blood Type O',
-            date: '2020-10-01',
+            material: 'Blood Type A',
+            date: '2021-09-21',
             eta: '10:21:32',
         },
         {
@@ -33,9 +33,16 @@ const DeliveryStatus: React.FC = () => {
             location: '100 Summer St Boston, MA 02120',
             material: 'Blood Type O',
             date: '2020-10-01',
-            eta: '10:21:32',
+            eta: '4:29:58',
         },
-        // Add more delivery objects here as needed
+        {
+            name: 'Harley Quen',
+            id: '677980932',
+            location: '376 Newbury St Boston, MA 02120',
+            material: 'kidney',
+            date: '2024-02-38',
+            eta: '28:19:32',
+        },
     ];
 
     useEffect(() => {

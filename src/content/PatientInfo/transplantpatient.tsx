@@ -21,7 +21,7 @@ export default function TransplantCandidates() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Grett</td>
+                        <td>Grett Jameson</td>
                         <td>8/1/2001</td>
                         <td>23</td>
                         <td>Male</td>
@@ -32,7 +32,7 @@ export default function TransplantCandidates() {
                         <td><button className="btn btn-primary">Send</button></td>
                     </tr>
                     <tr>
-                        <td>Linda</td>
+                        <td>Linda Lee</td>
                         <td>3/17/1964</td>
                         <td>60</td>
                         <td>Female</td>
@@ -43,7 +43,7 @@ export default function TransplantCandidates() {
                         <td><button className="btn btn-primary">Send</button></td>
                     </tr>
                     <tr>
-                        <td>James</td>
+                        <td>James Smith</td>
                         <td>1/12/1974</td>
                         <td>50</td>
                         <td>Male</td>
@@ -51,6 +51,28 @@ export default function TransplantCandidates() {
                         <td>Lung cancer</td>
                         <td>Liver</td>
                         <td> </td>
+                        <td><button className="btn btn-primary">Send</button></td>
+                    </tr>
+                    <tr>
+                        <td>Goerge Lewis</td>
+                        <td>1/12/2000</td>
+                        <td>24</td>
+                        <td>Male</td>
+                        <td>Heart Disease</td>
+                        <td>Heart Disease</td>
+                        <td>Heart</td>
+                        <td>Had a stroke recently</td>
+                        <td><button className="btn btn-primary">Send</button></td>
+                    </tr>
+                    <tr>
+                        <td>Sean Terrance</td>
+                        <td>5/17/2007</td>
+                        <td>17</td>
+                        <td>Male</td>
+                        <td>Kidney Failure </td>
+                        <td> </td>
+                        <td>Kidney</td>
+                        <td></td>
                         <td><button className="btn btn-primary">Send</button></td>
                     </tr>
                 </tbody>

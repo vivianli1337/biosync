@@ -46,7 +46,39 @@ export default function PatientList() {
                         <td>50</td>
                         <td>Female</td>
                         <td>Donor</td>
-                        <td>Chicken</td>
+                        <td>Chicken Pox</td>
+                    </tr>
+                    <tr>
+                    <td>Sean Terrance</td>
+                        <td>1/13/2004</td>
+                        <td>20</td>
+                        <td>Male</td>
+                        <td>Not a Doner </td>
+                        <td>Heart </td>
+                    </tr>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>8/26/2000</td>
+                        <td>24</td>
+                        <td>Male</td>
+                        <td>Donor</td>
+                        <td>Extreme headache</td>
+                    </tr>
+                    <tr>
+                        <td>Hannah Wells</td>
+                        <td>03/14/2008</td>
+                        <td>16</td>
+                        <td>Female</td>
+                        <td>Not a Donor</td>
+                        <td>Liver Tissue</td>
+                    </tr>
+                    <tr>
+                        <td>Oliver Kings</td>
+                        <td>8/13/2000</td>
+                        <td>24</td>
+                        <td>Male</td>
+                        <td>Donor</td>
+                        <td>Kidney</td>
                     </tr>
                 </tbody>
             </table>

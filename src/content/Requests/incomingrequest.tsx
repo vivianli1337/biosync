@@ -22,6 +22,15 @@ export default function IncomingRequests() {
                     <tbody>
                         <tr>
                             <td>Type O Blood</td>
+                            <td>5 bags needed</td>
+                            <td>3</td>
+                            <td>High</td>
+                            <td>2024-10-13</td>
+                            <td>X</td>
+                            <td>153</td>
+                        </tr>
+                        <tr>
+                            <td>Type O Blood</td>
                             <td>10 bags needed</td>
                             <td>10</td>
                             <td>Medium</td>
