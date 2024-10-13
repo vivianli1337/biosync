@@ -1,10 +1,9 @@
-import React from 'react';
 import { Route, Routes, Navigate } from "react-router-dom";
 import Signup from './account/signup';
 import Signin from './account/signin';
 import Deliverystatus from './content/Delivery';
 import Patientinfo from './content/PatientInfo';
-import Inventory from './content/Inventories';
+import Inventorylist from "./content/Inventories/inventorylist";
 import Request from './content/Requests';
 import Summary from './content/Summary';
 import MedicalProcedure from './content/Summary/procedure';
@@ -13,6 +12,8 @@ import UrgentMessage from './content/Summary/urgent';
 import NavigationBar from './content/navbar';
 import Rform from './content/Requests/requestform';
 import IncomingRequests from './content/Requests/incomingrequest';
+import TransplantCandidates from './content/PatientInfo/transplantpatient';
+import SendToHospitalForm from './content/Inventories/sendinventory';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -35,7 +36,9 @@ function App() {
         <Route path="/content/Summary/urgent" element={<UrgentMessage />} />
         <Route path="/content/Delivery" element={<Deliverystatus />} />
         <Route path="/content/PatientInfo" element={<Patientinfo />} />
-        <Route path="/content/Inventories" element={<Inventory />} />
+        <Route path="/content/PatientInfo/transplantpatient" element={<TransplantCandidates />} />
+        <Route path="/content/Inventories" element={<Inventorylist />} />
+        <Route path="/content/Inventories/sendinventory" element={<SendToHospitalForm />} />
 
         {/* Requests related routes */}
         <Route path="/content/Requests" element={<Request />} />

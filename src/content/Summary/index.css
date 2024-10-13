@@ -13,6 +13,12 @@
     border-radius: 5px; /* Rounded corners for the assist button */
 }
 
+.btn-assist {
+    padding: 5px 10px; /* Smaller padding */
+    font-size: 0.875rem; /* Smaller font size */
+    width:120px;
+}
+
 /* Card styles */
 .card {
     border-radius: 10px; /* Smooth corners for cards */

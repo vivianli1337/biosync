@@ -1,7 +1,9 @@
+import Inventory from "./inventorylist";
+
 export default function inventory() {
     return (
         <div>
-            <h2>Inventories</h2>
+            <Inventory/>
         </div>
     );
 }

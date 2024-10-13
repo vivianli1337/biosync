@@ -1,0 +1,60 @@
+.container {
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table thead {
+    background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.form-box {
+    width: 400px;
+    background-color: #eaf7f7;
+    border-radius: 20px;
+}
+
+form h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.form-control, .form-select {
+    margin-bottom: 1rem;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-success {
+    background-color: #77dd77;
+}
+
+.btn-secondary {
+    background-color: #b0b0b0;
+}
