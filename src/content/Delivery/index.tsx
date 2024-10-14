@@ -50,7 +50,7 @@ const DeliveryStatus: React.FC = () => {
             if (window.google) return Promise.resolve();
             return new Promise((resolve) => {
                 const script = document.createElement('script');
-                script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCYCRtPYUne3TxZ1_cTsg9cDBDZiFr4Ly4&libraries=places`;
+                script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&libraries=places`;
                 script.async = true;
                 script.onload = resolve;
                 document.head.appendChild(script);
